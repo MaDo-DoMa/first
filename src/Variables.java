@@ -43,6 +43,10 @@ public class Variables {
         System.out.println("Max value for short is " + maxShortValue);
         System.out.println("Min value for short is " + minShortValue + "\n");
 
+        char letter = 'C';
+        boolean isActive = false;
+        System.out.println(letter);
+        System.out.println(isActive);
 
     }
 }
