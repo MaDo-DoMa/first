@@ -48,5 +48,16 @@ public class Variables {
         System.out.println(letter);
         System.out.println(isActive);
 
+        int testNumber1 = 3;
+        System.out.println(testNumber1);
+        System.out.println(++testNumber1); //before add +1
+        System.out.println(testNumber1);
+        System.out.println(testNumber1++); //after add +1
+        System.out.println(testNumber1);
+        testNumber1 = 3;
+        System.out.println(testNumber1);
+        System.out.println(testNumber1 + ++testNumber1 + testNumber1++ + testNumber1); //3 + 4 + 4 + 5
+
+
     }
 }
